@@ -11,4 +11,4 @@ This repository contains the main [Python](https://www.python.org/) and [R](http
 
 Try it in the browser!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/igoandrade/book-resolution-de)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](gitpod.io/#https://github.com/igoandrade/book-resolution-de)
