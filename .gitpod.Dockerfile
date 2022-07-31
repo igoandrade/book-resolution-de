@@ -6,7 +6,7 @@ RUN apt-get update
 # Install python
 RUN python -m pip install --upgrade pip
 # COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install -r https://raw.githubusercontent.com/igoandrade/book-resolution-de/main/requirements.txt
 
 # Install R
 RUN apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev pandoc texlive texlive-latex-extra tcl r-base r-base-dev
