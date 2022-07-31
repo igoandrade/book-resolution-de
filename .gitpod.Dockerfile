@@ -48,7 +48,7 @@ RUN Rscript -e "install.packages('xml')"
 
 # Install python
 RUN python -m pip install --upgrade pip
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+# COPY requirements.txt requirements.txt
+RUN pip install -r https://github.com/igoandrade/book-resolution-de/blob/main/requirements.txt
 
 RUN pip install -U scikit-learn
